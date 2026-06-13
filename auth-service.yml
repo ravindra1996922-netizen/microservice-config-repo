@@ -3,7 +3,7 @@ server:
 
 spring:
   application:
-    name: 03_auth-service
+    name: auth-service
 
 test:
   message: Hello from GitHub Config Repo
