@@ -5,5 +5,18 @@ spring:
   application:
     name: auth-service
 
+eureka:
+  instance:
+    prefer-ip-address: true
+  client:
+    service-url:
+      defaultZone: http://eureka-server:8761/eureka
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+
 test:
   message: Hello from GitHub Config Repo
