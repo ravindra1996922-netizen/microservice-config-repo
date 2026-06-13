@@ -1,9 +1,0 @@
-server:
-  port: 8081
-
-spring:
-  application:
-    name: 03_auth-service
-
-test:
-  message: Hello from GitHub Config Repo
