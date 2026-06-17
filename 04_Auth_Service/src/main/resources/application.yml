@@ -1,0 +1,18 @@
+spring:
+  application:
+    name: auth-service
+
+  config:
+    import: optional:configserver:http://localhost:2222
+
+
+auth-service:
+  messages:
+    userReg: User Created
+    userRegErr: User already exists with email
+    userRegErrCode: USER_ALREADY_EXISTS
+    login: Login Success
+    loginErr: Invalid Email or Password
+    loginErrCode: INVALID_CREDENTIALS
+    userNotFound: User Not Found
+    userNotFoundErrCode: USER_NOT_FOUND

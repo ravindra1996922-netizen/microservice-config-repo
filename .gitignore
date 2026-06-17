@@ -1,0 +1,6 @@
+target/
+.metadata/
+.idea/
+.settings/
+*.log
+*.class
